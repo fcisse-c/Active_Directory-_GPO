@@ -19,6 +19,8 @@ Empêcher les utilisateurs du groupe `Wilders_Students` d'accéder au panneau de
 
 ## Étape 3 : Appliquer la GPO au groupe Wilders_Students
 1. Faire un clic droit sur  `Wilders_Students` > lier un objet de stratégie de groupe existant, et selectionner la GPO `Wilders.
+   ![GPO_lier_au_Groupe](https://github.com/user-attachments/assets/aa1a909f-c377-4dcb-b5a5-971ef010d42a)
+
 
 ## Étape 4 : Tester la configuration
 1. Exécuter `gpupdate /force` sur un client.
